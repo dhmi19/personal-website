@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Layout from './hoc/Layout/Layout';
-import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-
+import {Route} from 'react-router-dom';
+import Header from './components/Header/Header';
+import Resume from './containers/Resume/Resume';
 
 class App extends Component {
   
@@ -11,7 +11,8 @@ class App extends Component {
     return (
       <>
         <CssBaseline/>
-        <Layout></Layout>
+        <Route exact path='/' component={Header}/>
+        <Route path='/resume' component={Resume}/>
       </>
     );
   }

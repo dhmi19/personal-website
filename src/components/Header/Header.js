@@ -2,9 +2,9 @@ import React from 'react';
 import {Typography, Avatar, Grid, Box} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
 import avatar from '../../images/avatar.png';
-import headerBackground from '../../images/coffee-apple.jpg';
 import Typed from 'react-typed';
-
+import Particles from '../../components/UI/Particles/Particles';
+import NavBar from '../NavBar/NavBar';
 
 // CSS Styles
 const useStyles = makeStyles( theme => ({
@@ -37,24 +37,27 @@ const Header = () => {
     const classes = useStyles();
 
     return(
-        <Box className={classes.typedContainer} >
-            <Grid container justify="center">
-                <Avatar className={classes.avatar} src={avatar} alt="Dhruv Mittal"/>
-            </Grid>
-            <Typography className={classes.title} variant="h4">
-                <Typed strings={["Dhruv Mittal"]} typeSpeed={40}/>
-            </Typography>
-            <br/>
-            <Typography className={classes.subtitle} variant="h5">
-                <Typed 
-                    strings={["Android Developer", "Flutter Developer", "Web Developer"]} 
-                    typeSpeed={40}
-                    backSpeed={60}
-                    loop
-                />
-            </Typography>
-        </Box>
-        
+        <>
+            <NavBar />
+            <Particles/>
+            <Box className={classes.typedContainer} >
+                <Grid container justify="center">
+                    <Avatar className={classes.avatar} src={avatar} alt="Dhruv Mittal"/>
+                </Grid>
+                <Typography className={classes.title} variant="h4">
+                    Dhruv Mittal
+                </Typography>
+                <br/>
+                <Typography className={classes.subtitle} variant="h5">
+                    <Typed 
+                        strings={["Android Developer", "Flutter Developer", "Web Developer"]} 
+                        typeSpeed={40}
+                        backSpeed={60}
+                        loop
+                    />
+                </Typography>
+            </Box>
+        </>    
     );
 };
 

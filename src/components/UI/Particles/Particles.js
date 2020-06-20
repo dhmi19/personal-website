@@ -1,11 +1,8 @@
-import React from 'react';
-import Aux from '../Aux';
-import NavBar from '../../components/NavBar/NavBar';
-import Header from '../../components/Header/Header';
 import Particles from 'react-particles-js';
-import{makeStyles} from '@material-ui/core/styles'
+import React from 'react';
+import {makeStyles} from '@material-ui/styles';
 
-//CSS Styles
+
 const useStyles = makeStyles({
     particlesCanva:{
         position: "absolute",
@@ -13,15 +10,12 @@ const useStyles = makeStyles({
     }
 });
 
-const Layout = () => {
+const CustomParticles = () => {
 
     const classes = useStyles();
 
-    return (
-        <Aux>
-            <NavBar />
-            <Header />
-            <Particles 
+    return(
+        <Particles 
                 canvasClassName={classes.particlesCanva}
                 params={{
                     particles:{
@@ -44,9 +38,8 @@ const Layout = () => {
                             }
                         }
                     }
-                }}/>
-        </Aux>
-    );
+        }}/>
+    )
 }
 
-export default Layout;
+export default CustomParticles;

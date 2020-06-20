@@ -5,6 +5,7 @@ import { Menu, AssignmentInd, Home, Apps, ContactMail} from '@material-ui/icons'
 import avatar from '../../images/avatar.png';
 import Aux from '../../hoc/Aux';
 import LeftMenuSlider from '@material-ui/core/Drawer';
+import {Link} from 'react-router-dom';
 
 //CSS Styles:
 const useStyles = makeStyles(theme => ({
@@ -27,9 +28,9 @@ const useStyles = makeStyles(theme => ({
 
 
 const menuItems = [
-    { listIcon: <Home/>, listText: "Home"},
-    { listIcon: <AssignmentInd/>, listText: "Resume"},
-    { listIcon: <Apps/>, listText: "Portfolio"},
+    { listIcon: <Home/>, listText: "Home", listPath: '/'},
+    { listIcon: <AssignmentInd/>, listText: "Resume", listPath: '/resume'},
+    { listIcon: <Apps/>, listText: "Portfolio", listPath: '/portfolio'},
     { listIcon: <ContactMail/>, listText: "Contact Me"},
 ]
 
@@ -54,7 +55,7 @@ const NavBar = () => {
             <Divider/>
             <List>
                 {menuItems.map((menuItem, index) => (
-                    <ListItem button key= {index}>
+                    <ListItem button key= {index} component={Link} to={menuItem.listPath}>
                         <ListItemIcon className={classes.listItem}>
                             {menuItem.listIcon}
                         </ListItemIcon>
