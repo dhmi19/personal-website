@@ -1,0 +1,38 @@
+.Header{
+    background-color: #121211;
+    height: 800px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+
+.title{
+    color: white;
+    text-align: left;
+    background-color: 121211;
+    z-index: 2;
+    padding: 20px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 50%;
+}
+
+.greetings{
+    font-size: 1.5em;
+}
+
+.name{
+    margin-top: 0;
+    font-size: 6em;
+    margin-bottom: 0;
+}
+
+
+.bio{
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0;
+    line-height: 1.2em;
+}
+

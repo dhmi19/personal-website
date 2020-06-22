@@ -1,63 +1,38 @@
 import React from 'react';
-import {Typography, Avatar, Grid, Box} from '@material-ui/core';
-import {makeStyles} from '@material-ui/core/styles';
+import {Typography, Avatar, Grid} from '@material-ui/core';
 import avatar from '../../images/avatar.png';
 import Typed from 'react-typed';
 import Particles from '../../components/UI/Particles/Particles';
 import NavBar from '../NavBar/NavBar';
-
-// CSS Styles
-const useStyles = makeStyles( theme => ({
-    avatar: {
-        width: theme.spacing(15),
-        height: theme.spacing(15),
-        margin: theme.spacing(1),
-
-    },
-    title: {
-       color: "tomato",
-    },
-    subtitle: {
-        color: "tan",
-        marginBottom: "3rem"
-    },
-    typedContainer:{
-        position: "absolute",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        width: "100vw",
-        textAlign: "center",
-        zIndex: 1
-    }
-}));
+import classes from './Header.module.css';
 
 const Header = () => {
 
-    const classes = useStyles();
-
     return(
-        <>
-            <NavBar />
+        <div>
             <Particles/>
-            <Box className={classes.typedContainer} >
-                <Grid container justify="center">
-                    <Avatar className={classes.avatar} src={avatar} alt="Dhruv Mittal"/>
-                </Grid>
-                <Typography className={classes.title} variant="h4">
-                    Dhruv Mittal
-                </Typography>
-                <br/>
-                <Typography className={classes.subtitle} variant="h5">
-                    <Typed 
-                        strings={["Android Developer", "Flutter Developer", "Web Developer"]} 
-                        typeSpeed={40}
-                        backSpeed={60}
-                        loop
-                    />
-                </Typography>
-            </Box>
-        </>    
+            <div className={classes.Header}>
+                <div className={classes.title}>
+                    <p className={classes.greetings}>Hi! My name is</p>
+                    <p className={classes.name}>Dhruv Mittal<span style={{color:"#98ff98"}}>.</span></p>
+                    <p style={{fontSize:"1.5em"}}>
+                        I'm a passionate <span><Typed 
+                            strings={["Android Developer", "Flutter Developer", "Web Developer"]} 
+                            typeSpeed={40}
+                            backSpeed={60}
+                            loop
+                            style={{color:"#98ff98"}}
+                        /></span>
+                    </p>
+                    <br />
+                    <div className={classes.bio}>
+                    <p>I am an international student studying computer science
+                         at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to see some of the 
+                         projects I have worked on. You can find my resume here</p>  
+                    </div>  
+                </div>
+            </div>
+        </div>    
     );
 };
 
