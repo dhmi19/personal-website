@@ -28,8 +28,9 @@ const Header = () => {
                     <div className={classes.bio}>
                     <p>I am an international student studying computer science
                          at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to see some of the 
-                         projects I have worked on. You can find my resume here</p>  
-                    </div>  
+                         projects I have worked on. You can find my <span style={{color:"#98ff98"}}>resume</span> here</p>  
+                    </div>
+                    <button className={classes.contactMe}>Get In Touch</button>  
                 </div>
             </div>
         </div>    
