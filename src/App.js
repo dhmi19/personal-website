@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <Header/>
         <Projects/>
-        <Courses/>
+        {/*<Courses/>*/}
       </div>
     );
   }

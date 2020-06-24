@@ -26,7 +26,8 @@
 }
 
 .Course:hover{
-    box-shadow: 0 4px 16px 0 aqua, 0 6px 20px 0 black;;
+    box-shadow: 0 8px 16px grey,0 8px 32px white;
+    background-image: linear-gradient(-227deg, #070082, #0c919a);
 }
 
 .CourseInterior{
@@ -46,4 +47,10 @@
     width: 60%;
     font-weight: normal;
     margin-top: 20px;
+}
+
+.CourseInterior p{
+    display: inline;
+    margin-right: 20px;
+    color: white;
 }

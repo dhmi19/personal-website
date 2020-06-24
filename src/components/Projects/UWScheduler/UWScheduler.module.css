@@ -1,4 +1,4 @@
-.SurveyTree{
+.UWScheduler{
     height: 600px;
     padding-left: 10%;
     padding-right: 5%;
@@ -10,20 +10,22 @@
 
 .Content1{
     background-color: transparent;
-    width: 50%;
+    width: 45%;
     height: 80%;
+    background-image: url(../../../images/UWScheduler.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .Content2{
-    background-color:transparent;
-    background-image: url(../../../images/SurveyTree.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 45%;
-    height: 80%;
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    color: white;
+    margin-left: 10%;
 }
 
-.Content1 h1{
+.Content2 h1{
     text-align: left;
     font-size: 2.5em;
     color: white;
@@ -32,7 +34,7 @@
     margin-top: 10px;
 }
 
-.Content1 p{
+.Content2 p{
     text-align: left;
     font-size: 1.25em;
     line-height: 1.5em;
@@ -47,12 +49,14 @@
     margin-top: 0;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .Technology{
     display: inline;
     margin-left: 0;
     margin-right: 10px;
+    margin-bottom: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
