@@ -13,7 +13,7 @@ const Courses = () => {
 
     return (
         <section className={classes.Courses}>
-            <h1>Relevant Courses</h1>
+            <h1>Courses</h1>
             <div className={classes.Content}>
                 <div className={classes.Course}>
                     <div className={classes.CourseInterior}>
