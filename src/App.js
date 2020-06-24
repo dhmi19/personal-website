@@ -4,6 +4,7 @@ import Courses from './components/Courses/Courses';
 import Home from './components/Home/Home';
 import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
+import About from './components/About/About';
 
 class App extends Component {
   
@@ -12,7 +13,7 @@ class App extends Component {
 
     let routes = (
       <Switch>
-        <Route path="/projects" component={Projects}/>
+        <Route path="/about" component={About}/>
         <Route path="/courses" component={Courses}/>
         <Route path="/" exact component={Home}/>
         <Redirect to='/'/>

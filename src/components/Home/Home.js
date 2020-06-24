@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
+import Projects from '../Projects/Projects';
+import About from '../About/About';
 
 class Home extends Component {
     
@@ -9,6 +11,7 @@ class Home extends Component {
             <div>
                 <NavBar />
                 <Header/>
+                <Projects/>
             </div>
         );
     }

@@ -7,7 +7,7 @@ const NavigationItems = () => {
         <div>
             <ul className={classes.NavigationItems}>
                 <NavigationItem link='/' exact={true}>Home</NavigationItem>
-                <NavigationItem link='/projects' exact={true}>Projects</NavigationItem>
+                <NavigationItem link='/about' exact={true}>About Me</NavigationItem>
                 <NavigationItem link='/courses' exact={true}>Courses</NavigationItem>
                 <NavigationItem link='/contact' exact={true}>Contact</NavigationItem>
             </ul>
