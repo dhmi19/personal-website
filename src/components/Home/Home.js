@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
 import Projects from '../Projects/Projects';
-import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 class Home extends Component {
     
@@ -12,6 +12,7 @@ class Home extends Component {
                 <NavBar />
                 <Header/>
                 <Projects/>
+                <Contact/>
             </div>
         );
     }
