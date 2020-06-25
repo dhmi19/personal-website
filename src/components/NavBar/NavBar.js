@@ -7,7 +7,7 @@ const NavBar = (props) => {
        <header className={classes.Toolbar}>
            <div></div>
            <nav className={classes.DesktopOnly} style={{color:"white"}}>
-            <NavigationItems isAuthenticated={props.isAuthenticated}/>
+            <NavigationItems contactScroll = {props.contactScroll}/>
            </nav>
        </header>
     );
