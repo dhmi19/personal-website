@@ -1,14 +1,15 @@
 .Contact{
-    padding-top: 50px;
     background-color: #121211;
     padding-bottom: 10%;
-    padding-left: 10%;
+    margin-top: 0;
+    padding-top: 30px;
 }
 
 .Title{
     text-align: center;
     color: white;
     font-size: 3em;
+    margin-top: 0;
 }
 
 .Subtitle{

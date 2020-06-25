@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 class Home extends Component {
     
@@ -13,6 +14,7 @@ class Home extends Component {
                 <Header/>
                 <Projects/>
                 <Contact/>
+                <Footer/>
             </div>
         );
     }

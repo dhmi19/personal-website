@@ -1,0 +1,10 @@
+.Footer{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 2%;
+}
+
+.Footer p{
+    margin: 0;
+    text-align: center;
+}
