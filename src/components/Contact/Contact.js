@@ -5,8 +5,6 @@ import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { withStyles } from '@material-ui/core/styles';
-import { HoverMode } from 'react-particles-js';
-
 
 const styles = theme => ({
     Email: {
@@ -58,7 +56,8 @@ const Contact = (props) => {
                         borderRadius: 15
                     }}
                     className={props.classes.Email}
-                    color="primary">d2mittal@uwaterloo.ca</Button>
+                    color="primary"
+                >d2mittal@uwaterloo.ca</Button>
                 <Button 
                     variant="contained"
                     startIcon={<LinkedInIcon style={{ fontSize: 25 }}/>}
@@ -73,6 +72,8 @@ const Contact = (props) => {
                         color: "black",
                         borderRadius: 15
                     }}
+                    target="_blank" 
+                    href="https://www.linkedin.com/in/dhruv-mittal-1607a019b/"
                     >Dhruv Mittal</Button>
                 <Button 
                     variant="contained"
@@ -88,6 +89,8 @@ const Contact = (props) => {
                         color: "black",
                         borderRadius: 15
                     }}
+                    target="_blank" 
+                    href="https://github.com/dhmi19"
                 >dhmi19</Button>
             </div>
         </section>
