@@ -19,7 +19,7 @@ const Footer = () => {
                 backDelay={3000}
                 backSpeed={60}
                 loop
-                style={{color:"black", textAlign:"center", display:"block"}}
+                style={{color:"white", textAlign:"center", display:"block"}}
             />
         </footer>
     );

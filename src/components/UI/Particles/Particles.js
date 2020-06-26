@@ -1,7 +1,6 @@
 import Particles from 'react-particles-js';
 import React from 'react';
 import {makeStyles} from '@material-ui/styles';
-import { red } from '@material-ui/core/colors';
 
 
 const useStyles = makeStyles({

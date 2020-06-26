@@ -36,7 +36,14 @@ const ApartmentApp = () => {
                     The app makes living together easier by providing shared grocery lists, 
                     notes, and expense management.</p>
                 <br/>
-                <Button className={materialClasses.SourceCodeButton} variant="contained" color="#341234" endIcon={<GitHubIcon/>}>Code</Button>
+                <Button 
+                    className={materialClasses.SourceCodeButton} 
+                    variant="contained" color="#341234" 
+                    endIcon={<GitHubIcon/>}
+                    target="_blank" href="https://github.com/dhmi19/lester_apartments"
+                    >
+                        Code
+                </Button>
                 
             </div>
         </section>

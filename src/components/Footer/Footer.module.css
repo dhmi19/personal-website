@@ -1,7 +1,9 @@
 .Footer{
-    background-color: #9bffbc;
+    background-color: #007BB6;
     margin: 0;
     padding: 2%;
+    color: white;
+    font-weight: bold;
 }
 
 .Footer p{

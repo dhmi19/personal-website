@@ -3,6 +3,7 @@ import classes from './About.module.css';
 import Timeline from './Timeline/Timeline';
 import ProfilePicture from '../../images/ProfilePicture.png';
 import NavBar from '../NavBar/NavBar';
+import Footer from '../Footer/Footer';
 
 const About = () => {
     return (
@@ -24,13 +25,14 @@ const About = () => {
                         </p>
                     </div>
                     <div className={classes.Picture}>
-                        <img src={ProfilePicture}/>
+                        <img src={ProfilePicture} alt="Dhruv Mittal"/>
                     </div>
                 </div>
                 <br/>
                 <h1 className={classes.Title}>My Life: A Short Summary</h1>
                 <Timeline/>
             </section>
+            <Footer/>
         </>
     );
 };

@@ -34,7 +34,15 @@ const UWScheduler = () => {
                 <br/>
                 <p>UWScheduler is a web application which allows students to optimise their schedule around the most reputed professors with no timing clashes.</p>
                 <br/>
-                <Button className={materialClasses.SourceCodeButton} variant="contained" color="#341234" endIcon={<GitHubIcon/>}>Code</Button>
+                <Button 
+                    className={materialClasses.SourceCodeButton}
+                    variant="contained"
+                    color="#341234"
+                    endIcon={<GitHubIcon/>}
+                    target="_blank" 
+                    href="https://github.com/dhmi19/UWScheduler">
+                        Code
+                </Button>
                 
             </div>
         </section>
