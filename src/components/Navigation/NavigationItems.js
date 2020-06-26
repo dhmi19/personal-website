@@ -9,11 +9,8 @@ const NavigationItems = (props) => {
                 <NavigationItem link='/' exact={true}>Home</NavigationItem>
                 <NavigationItem link='/about' exact={true}>About Me</NavigationItem>
                 <NavigationItem link='/courses' exact={true}>Courses</NavigationItem>
-                <NavigationItem 
-                    isContact = {true} 
-                    contactScroll = {props.contactScroll} 
-                    link='/contact' 
-                    exact={true}>Contact</NavigationItem>
+                <NavigationItem link='/contact' exact={true}>Contact</NavigationItem>
+                
             </ul>
         </div>
     );

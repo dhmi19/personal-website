@@ -22,13 +22,13 @@ const Home = () => {
         <div>
             <NavBar contactScroll = {scrollToContact}/>
             <Header clicked={executeScroll}/>
-            <Projects/>
+            {/*<Projects/>
 
             <Element id='contact' name="contact">
                 <div ref={contactRef}>
                     <Contact/>
                 </div>
-            </Element>
+            </Element>*/}
             <Footer/>
         </div>
     );

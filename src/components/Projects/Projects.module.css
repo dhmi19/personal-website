@@ -11,3 +11,10 @@
     color: white;
     font-size: 3em;
 }
+
+@media screen and (max-width: 400px){
+    .title{
+        font-size: 2em;
+        margin: 0
+    }
+}
