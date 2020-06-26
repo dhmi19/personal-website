@@ -1,9 +1,9 @@
 import React, {useRef} from 'react';
-import Header from '../Header/Header';
-import NavBar from '../NavBar/NavBar';
-import Projects from '../Projects/Projects';
-import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+import Header from '../../components/Header/Header';
+import NavBar from '../../components/NavBar/NavBar';
+import Projects from '../../components/Projects/Projects';
+import Contact from '../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 import { Element } from 'react-scroll'
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);

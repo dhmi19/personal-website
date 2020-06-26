@@ -2,8 +2,8 @@ import React from 'react';
 import classes from './About.module.css';
 import Timeline from './Timeline/Timeline';
 import ProfilePicture from '../../images/ProfilePicture.png';
-import NavBar from '../NavBar/NavBar';
-import Footer from '../Footer/Footer';
+import NavBar from '../../components/NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
 
 const About = () => {
     return (

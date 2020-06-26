@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Courses.module.css';
-import Footer from '../Footer/Footer';
+import Footer from '../../components/Footer/Footer';
 import FlutterBootcamp from './FlutterBootcamp/FlutterBootcamp';
 import ReactCompleteGuide from './ReactCompleteGuide/ReactCompleteGuide';
 import CSSEssentials from './CSSEssentials/CSSEssentials';

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Courses from './components/Courses/Courses';
-import Home from './components/Home/Home';
+import Courses from './containers/Courses/Courses';
+import Home from './containers/Home/Home';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
-import About from './components/About/About';
+import About from './containers/About/About';
 
 class App extends Component {
   
