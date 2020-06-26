@@ -3,7 +3,7 @@ import classes from './UWScheduler.module.css';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Picture from '../../../images/UWScheduler.png';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -23,6 +23,7 @@ const UWScheduler = () => {
     return (
         <section className={classes.UWScheduler}>
             <div className={classes.Content1}>
+                <img src={Picture} alt="ApartmentApp"/>
             </div>
             <div className={classes.Content2}>
                 <h1>UWScheduler</h1>

@@ -3,7 +3,7 @@ import classes from './ApartmentApp.module.css';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Picture from '../../../images/ApartmentApp.png';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -23,6 +23,7 @@ const ApartmentApp = () => {
     return (
         <section className={classes.ApartmentApp}>
             <div className={classes.Content1}>
+                <img src={Picture} alt="ApartmentApp"/>
             </div>
             <div className={classes.Content2}>
                 <h1>Apartment App</h1>

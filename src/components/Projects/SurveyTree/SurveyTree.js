@@ -3,7 +3,7 @@ import classes from './SurveyTree.module.css';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Picture from '../../../images/SurveyTree.png';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -45,6 +45,7 @@ const SurveyTree = () => {
                 
             </div>
             <div className={classes.Content2}>
+                <img src={Picture} alt="SurveyTree"/>
             </div>
         </section>
     );
