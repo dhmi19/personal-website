@@ -26,7 +26,7 @@ const Header = (props) => {
                     <div className={classes.bio}>
                     <p>I am an international student studying computer science
                             at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to see some of the 
-                            projects I have worked on. You can find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98"}}>resume</span></a> here.</p>  
+                            projects I have worked on or click to find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98"}}>resume</span></a> here.</p>  
                     </div>
                     <button 
                         className={classes.contactMe}
