@@ -8,7 +8,6 @@ import ContactPage from './containers/ContactPage/ContactPage';
 
 class App extends Component {
   
-  
   render() {
 
     let routes = (

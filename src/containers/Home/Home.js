@@ -24,11 +24,11 @@ const Home = () => {
             <Header clicked={executeScroll}/>
             <Projects/>
 
-            {/*<Element id='contact' name="contact">
+            <Element id='contact' name="contact">
                 <div ref={contactRef}>
                     <Contact/>
                 </div>
-            </Element>*/}
+            </Element>
             <Footer/>
         </div>
     );

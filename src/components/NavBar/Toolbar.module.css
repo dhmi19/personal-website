@@ -17,6 +17,10 @@
     height: 100%;
 }
 
+.MobileOnly{
+    display: none;
+}
+
 @media(max-width: 499px){
     .DesktopOnly{
         display: none;

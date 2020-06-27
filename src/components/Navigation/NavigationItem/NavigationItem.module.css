@@ -6,7 +6,7 @@
 }
 
 .NavigationItem a {
-    color: transparent;
+    color: white;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
@@ -16,7 +16,9 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    color: #40A4C8;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #98ff98;
+    color: white;
 }
 
 @media (min-width: 500px) {
