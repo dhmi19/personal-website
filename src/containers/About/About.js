@@ -28,9 +28,10 @@ const About = () => {
                         <img src={ProfilePicture} alt="Dhruv Mittal"/>
                     </div>
                 </div>
-                <br/>
-                <h1 className={classes.Title}>My Life: A Short Summary</h1>
-                <Timeline/>
+                <div className={classes.timeline}>
+                    <h1 className={classes.Subtitle}>My Life: A Short Summary</h1>
+                    <Timeline/>
+                </div>
             </section>
             <Footer/>
         </>

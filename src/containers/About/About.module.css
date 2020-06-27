@@ -5,8 +5,16 @@
     padding-left: 10%;
 }
 
+@media screen and (max-width: 500px){
+    .About{
+        padding-top: 50px;
+        background-color: #121211;
+        padding-bottom: 5%;
+        padding-left: 0;
+    }
+}
+
 .Title{
-    position: relative;
     text-align: left;
     color: white;
     font-size: 3em;
@@ -14,35 +22,79 @@
     margin-bottom: 50px;
 }
 
-#Subtitle{
-    color: white;
-    font-weight: normal;
+@media screen and (max-width: 500px){
+    .Title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
+
 
 .Content{
     display: inline-flex;
     justify-content: flex-start;
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 10%;
+}
+
+@media screen and (max-width: 500px){
+    .Content{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 }
 
 .Text{
     color: white;
     width: 50%;
-}
-
-.Text p{
     font-size: 1.5em;
     line-height: 2em;
+}
+
+
+@media screen and (max-width: 500px){
+    .Text{
+        width: 90%;
+        text-align: center;
+        line-height: 1em;
+    }
 }
 
 .Picture{
     width: 45%;
 }
 
+@media screen and (max-width: 500px){
+    .Picture{
+        width: 80%;
+    }
+}
+
 .Picture img{
-    image-rendering: optimizeQuality;
     height: 80%;
     padding-left: 20%;
     padding-top: 8%;
+}
+
+@media screen and (max-width: 500px){
+    .Picture img{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+.Subtitle{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px){
+    .timeline{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
