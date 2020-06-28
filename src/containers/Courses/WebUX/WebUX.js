@@ -24,7 +24,7 @@ const WebUX = () => {
     const materialClasses = useStyles();
 
     return (
-        <section className={classes.SurveyTree}>
+        <section className={classes.WebUX}>
             <div className={classes.Content1}>
                 <h1>User Experience for Web Design</h1>
                 <div className={classes.Technologies}>

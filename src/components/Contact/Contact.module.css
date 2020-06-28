@@ -2,9 +2,8 @@
     background-color: #121211;
     padding-bottom: 10%;
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 100px;
 }
-
 
 .Title{
     text-align: center;
@@ -28,4 +27,13 @@
     padding-left: 5%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+    .ContactMethods{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }

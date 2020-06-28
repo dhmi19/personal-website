@@ -26,14 +26,14 @@ const ApartmentApp = () => {
                 <img src={Picture} alt="ApartmentApp"/>
             </div>
             <div className={classes.Content2}>
-                <h1>Apartment App</h1>
+                <h1>LiveTogether</h1>
                 <div className={classes.Technologies}>
                     {technologies.map(technology => (
                         <div className={classes.Technology} key={technology}>{technology}</div>
                     ))}
                 </div>
                 <br/>
-                <p>The Apartment App is a mobile application available on iOS and Android. 
+                <p>LiveTogether is a mobile application for iOS and Android. 
                     The app makes living together easier by providing shared grocery lists, 
                     notes, and expense management.</p>
                 <br/>
