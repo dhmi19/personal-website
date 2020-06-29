@@ -8,6 +8,10 @@ import ContactPage from './containers/ContactPage/ContactPage';
 
 class App extends Component {
   
+  componentDidMount() {
+    document.title = "Dhruv Mittal";
+  }
+
   render() {
 
     let routes = (
