@@ -16,7 +16,7 @@ const About = () => {
                         <p>Hello! I'm Dhruv, a <span style={{color:"#98ff98"}}>mobile</span> and <span style={{color:"#98ff98"}}>web</span> app developer currently living in <span style={{color:"#98ff98"}}>Waterloo, Ontario</span>.</p>
                         <p>
                             I love to engage with people from various backgrounds and use technology to solve real world problems. 
-                            My goal is to build appealing software which improves people's lives.
+                            My goal is to create innovative solutions to improve people's lives.
                         </p>
                         <p>
                             When I'm not coding, you'll catch me watching a <span style={{color:"#98ff98"}}>Manchester United</span> football game,
