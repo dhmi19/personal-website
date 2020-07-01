@@ -19,7 +19,7 @@ class App extends Component {
         <Route path="/about" component={About}/>
         <Route path="/courses" component={Courses}/>
         <Route path="/contact" exact component={ContactPage}/>
-        <Route path="/" exact component={Home}/>
+        <Route path="/" component={Home}/>
         <Redirect to='/'/>
       </Switch>
     );

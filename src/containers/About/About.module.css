@@ -2,7 +2,6 @@
     padding-top: 50px;
     background-color: #121211;
     padding-bottom: 5%;
-    padding-left: 10%;
 }
 
 @media screen and (max-width: 500px){
@@ -12,6 +11,10 @@
         padding-bottom: 5%;
         padding-left: 0;
     }
+}
+
+.LeftPadding{
+    padding-left: 10%;
 }
 
 .Title{
