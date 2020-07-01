@@ -44,13 +44,9 @@ const FlutterBootcamp = () => {
                     variant="contained"
                     color="#341234"
                     endIcon={<LaunchIcon/>}
-                    onClick>
-                        <a 
-                            href = {Certificate}
-                            target = "_blank"
-                            rel="noopener noreferrer">
-                            Certification
-                        </a>
+                    target = "_blank"
+                    href = {Certificate}>    
+                    Certification
                 </Button>
             </div>
         </section>

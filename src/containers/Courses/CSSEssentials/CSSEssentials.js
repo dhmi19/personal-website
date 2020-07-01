@@ -44,13 +44,9 @@ const CSSEssentials = () => {
                     variant="contained"
                     color="#341234"
                     endIcon={<LaunchIcon/>}
-                    onClick>
-                        <a 
-                            href = {Certificate}
-                            target = "_blank"
-                            rel="noopener noreferrer">
-                            Certification
-                        </a>
+                    href = {Certificate}
+                    target = "_blank">
+                    Certification
                 </Button>
             </div>
         </section>

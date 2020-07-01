@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import Picture from '../../../images/WebUX.png';
 import LaunchIcon from '@material-ui/icons/Launch';
-
+import Certificate from '../../../res/WebUX.pdf';
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
     SourceCodeButton: {
@@ -40,7 +40,7 @@ const WebUX = () => {
                     variant="contained"
                     color="#341234"
                     endIcon={<LaunchIcon/>}
-                    target="_blank" href="" //TODO: Insert certificate link here
+                    target="_blank" href={Certificate}
                 >
                     Certification
                 </Button>
