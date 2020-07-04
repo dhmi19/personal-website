@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import LaunchIcon from '@material-ui/icons/Launch';
 import { makeStyles } from '@material-ui/core/styles';
 import Picture from '../../../images/React.png';
-//import Resume from '../../../res/resume.pdf';
+import Certificate from '../../../res/React-The Complete Guide Certificate.pdf';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -41,7 +41,7 @@ const ReactCompleteGuide = () => {
                     variant="contained"
                     color="#341234"
                     endIcon={<LaunchIcon/>}
-                    target="_blank" href="">
+                    target="_blank" href={Certificate}>
                         Certification
                 </Button>
                 

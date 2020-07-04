@@ -73,7 +73,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="Sept. 2015 - June 2017"
+                date="Sept. 2014 - June 2017"
                 iconStyle={{ background: 'rgb(15, 114, 223)', color: '#fff'}}
                 icon={<FlightIcon />}
             >
@@ -88,7 +88,7 @@ const Timeline = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="Aug. 2007 - June 2015"
+                date="Aug. 2008 - June 2014"
                 iconStyle={{ background: 'rgb(15, 114, 223)', color: '#fff'}}
                 icon={<FlightIcon/>}
             >
