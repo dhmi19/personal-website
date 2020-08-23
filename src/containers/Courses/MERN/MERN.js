@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 
 const MERNCourse = () => {
 
-    const technologies = ["React", "Redux", "Routing", "Hooks"];
+    const technologies = ["MongoDB", "Express", "React", "NodeJS"];
 
     const materialClasses = useStyles();
 
