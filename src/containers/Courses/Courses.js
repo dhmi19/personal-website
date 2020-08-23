@@ -5,6 +5,7 @@ import FlutterBootcamp from './FlutterBootcamp/FlutterBootcamp';
 import ReactCompleteGuide from './ReactCompleteGuide/ReactCompleteGuide';
 import CSSEssentials from './CSSEssentials/CSSEssentials';
 import WebUX from './WebUX/WebUX';
+import MERNGuide from './MERN/MERN';
 
 const Courses = () => {
 
@@ -12,6 +13,7 @@ const Courses = () => {
         <>
             <section className={classes.Courses}>
                 <h1 className={classes.title}>Courses</h1>
+                <MERNGuide/>
                 <FlutterBootcamp/>
                 <ReactCompleteGuide/>
                 <CSSEssentials/>

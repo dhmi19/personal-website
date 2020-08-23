@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
 const UWScheduler = () => {
 
-    const technologies = ["Flask", "Python", "JavaScript", "HTML5", "CSS3"];
+    const technologies = ["Flask", "JavaScript", "HTML5", "CSS3"];
 
     const materialClasses = useStyles();
 
