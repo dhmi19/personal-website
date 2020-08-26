@@ -5,7 +5,6 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
 import About from './containers/About/About';
 import ContactPage from './containers/ContactPage/ContactPage';
-
 class App extends Component {
   
   componentDidMount() {

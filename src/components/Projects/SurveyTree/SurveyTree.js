@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
 import Picture from '../../../images/SurveyTree.png';
+import LaunchIcon from '@material-ui/icons/Launch';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -12,6 +13,11 @@ const useStyles = makeStyles((theme) => ({
       padding: 15,
       borderRadius: 5
     },
+    CaseStudyButton: {
+        marginRight: theme.spacing(1),
+        padding: 15,
+        borderRadius: 5
+    }
   }));
 
 const SurveyTree = () => {
@@ -42,7 +48,15 @@ const SurveyTree = () => {
                     >
                         Code
                 </Button>
-                
+                <Button
+                    className={materialClasses.CaseStudyButton}
+                    variant="contained"
+                    color="red"
+                    endIcon={<LaunchIcon/>}
+                    target="_blank" href="https://devpost.com/software/surverytree"
+                    >
+                        Case Study
+                </Button>
             </div>
             <div className={classes.Content2}>
                 <img src={Picture} alt="SurveyTree"/>

@@ -60,7 +60,7 @@ const Contact = (props) => {
                             }}
                             className={props.classes.Email}
                             color="primary"
-                        >d2mittal@uwaterloo.ca</Button>
+                        >dhruv.mittal@uwaterloo.ca</Button>
                 </Grid>
                 
                 <Grid container justify = "center">

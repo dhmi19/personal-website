@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
 import Picture from '../../../images/ApartmentApp.png';
+import LaunchIcon from '@material-ui/icons/Launch';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -12,6 +13,11 @@ const useStyles = makeStyles((theme) => ({
       padding: 15,
       borderRadius: 5
     },
+    CaseStudyButton: {
+        marginRight: theme.spacing(1),
+        padding: 15,
+        borderRadius: 5
+    }
   }));
 
 const ApartmentApp = () => {
@@ -44,6 +50,15 @@ const ApartmentApp = () => {
                     target="_blank" href="https://github.com/dhmi19/lester_apartments"
                     >
                         Code
+                </Button>
+
+                <Button 
+                    className={materialClasses.SourceCodeButton} 
+                    variant="contained" color="#341234" 
+                    endIcon={<LaunchIcon/>}
+                    target="_blank" href="https://devpost.com/software/livetogether-bqosm1"
+                    >
+                        Case Study
                 </Button>
                 
             </div>

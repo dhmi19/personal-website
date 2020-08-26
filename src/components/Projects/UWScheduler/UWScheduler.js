@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
 import Picture from '../../../images/UWScheduler.png';
+import LaunchIcon from '@material-ui/icons/Launch';
 
 //CSS Styles
 const useStyles = makeStyles((theme) => ({
@@ -12,6 +13,11 @@ const useStyles = makeStyles((theme) => ({
       padding: 15,
       borderRadius: 5
     },
+    CaseStudyButton: {
+        marginRight: theme.spacing(1),
+        padding: 15,
+        borderRadius: 5
+    }
   }));
 
 const UWScheduler = () => {
@@ -43,6 +49,16 @@ const UWScheduler = () => {
                     target="_blank" 
                     href="https://github.com/dhmi19/UWScheduler">
                         Code
+                </Button>
+
+                <Button
+                    className={materialClasses.CaseStudyButton}
+                    variant="contained"
+                    color="red"
+                    endIcon={<LaunchIcon/>}
+                    target="_blank" href="https://devpost.com/software/uw-scheduler"
+                    >
+                        Case Study
                 </Button>
                 
             </div>
