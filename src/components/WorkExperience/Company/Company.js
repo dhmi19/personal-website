@@ -5,7 +5,7 @@ const Company = (props) => {
     return (
         <div className={classes.Content}>
             <div className={classes.Left}>
-                <img src={props.image}/>
+                <img src={props.image} alt={props.name}/>
                 <p><b>{props.name}</b></p>
                 <p>{props.dates}</p>
             </div>
