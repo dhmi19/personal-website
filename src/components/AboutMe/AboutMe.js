@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <section className={classes.About}>
         <div className={classes.LeftPadding}>
-            <h1 className={classes.Title}>About Me</h1>
+            <h1 className={classes.Title}>Nice to meet you!</h1>
             <div className={classes.Content}>
                 <div className={classes.Text}>
                     <p>Hello! I'm Dhruv, a <span style={{color:"#98ff98"}}>mobile</span> and <span style={{color:"#98ff98"}}>web</span> app developer currently living in <span style={{color:"#98ff98"}}>Waterloo, Ontario</span>.</p>

@@ -10,11 +10,15 @@ const Recommendations = () => {
     const recommendations = [
         {
             name: "Kunal Gupta",
-            description: "Great person to work with"
+            position: "CEO, Polar",
+            imageURL: "https://media-exp1.licdn.com/dms/image/C4E03AQEqMdYwewicFg/profile-displayphoto-shrink_800_800/0?e=1604534400&v=beta&t=r7ejs1ewiuQeWa23pVDvVDA0-LSeQ1UyacgkCmpv_YY",
+            description: "Dhruv is a smart, resourceful and talented professional. He brings a curiosity to every project, willing to dive in and learn along the way. I counted on him for a variety of responsibilities and have high hopes for his future endeavours.",
         },
         {
-            name: "Omar Baranek",
-            description: "Great person to work with"
+            name: "Omar Gupta",
+            position: "Teammate, Polar",
+            imageURL: "https://media-exp1.licdn.com/dms/image/C4E03AQEqMdYwewicFg/profile-displayphoto-shrink_800_800/0?e=1604534400&v=beta&t=r7ejs1ewiuQeWa23pVDvVDA0-LSeQ1UyacgkCmpv_YY",
+            description: "Dhruv is a smart, resourceful and talented professional. He brings a curiosity to every project, willing to dive in and learn along the way. I counted on him for a variety of responsibilities and have high hopes for his future endeavours.",
         }
     ]
 
@@ -39,7 +43,12 @@ const Recommendations = () => {
                 <Slider {...settings} className={classes.Slider} >
                     {recommendations.map(recommendation => {
                         return(
-                            <Recommendation name={recommendation.name} description={recommendation.description}/>
+                            <Recommendation 
+                                name={recommendation.name} 
+                                position={recommendation.position}
+                                imageURL={recommendation.imageURL}
+                                description={recommendation.description}
+                            />
                         );
                     })}
                 </Slider>

@@ -1,12 +1,36 @@
 .Recommendations{
     margin: 0% 10%;
     color: white;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     box-sizing: border-box;
 }
 
 .Recommendations h1 {
     font-size: 3em;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
+@media screen and (max-width: 450px){
+
+    .Recommendations{
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0px
+    }
+
+    .Recommendations h1 {
+        font-size: 2.5em;
+        margin-bottom: 100px;
+    }
+
+    .RecommendationDiv{
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px){
+    .Recommendations h1 {
+        font-size: 2em;
+        margin-bottom: 100px;
+    }
+}

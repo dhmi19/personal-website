@@ -4,6 +4,7 @@ import SurveyTree from './SurveyTree/SurveyTree';
 import classes from './Projects.module.css';
 import UWScheduler from './UWScheduler/UWScheduler';
 import MealOfTheDay from './MealOfTheDay/MealOfTheDay';
+import Footer from '../Footer/Footer';
 
 class Projects extends Component {
     render() {
@@ -14,6 +15,7 @@ class Projects extends Component {
                 <ApartmentApp/>
                 <SurveyTree/>
                 <UWScheduler/>
+                <Footer/>
             </section>
         );
     }

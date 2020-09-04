@@ -75,18 +75,18 @@
 }
 
 @media screen and (max-width: 500px){
-    .SurveyTree{
+    .MealOfTheDay{
         flex-direction: column-reverse;
         align-items: center;
         padding-top: 10px;
-        padding-left: 0px;
+        padding-left: 0;
         padding-right: 0px;
     }
 
     .Content2{
         margin-top: 0px;
         width: 80%;
-        height: auto;
+        height: 200px;
     }
 
     .Content2 img{

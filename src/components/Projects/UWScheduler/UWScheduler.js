@@ -11,14 +11,16 @@ const useStyles = makeStyles((theme) => ({
     SourceCodeButton: {
       marginRight: theme.spacing(1),
       padding: 15,
-      borderRadius: 5
+      borderRadius: 5,
+      marginBottom: theme.spacing(1)
     },
     CaseStudyButton: {
         marginRight: theme.spacing(1),
         padding: 15,
-        borderRadius: 5
+        borderRadius: 5,
+        marginBottom: theme.spacing(1)
     }
-  }));
+}));
 
 const UWScheduler = () => {
 
