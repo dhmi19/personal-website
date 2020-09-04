@@ -1,10 +1,12 @@
 import React, {useRef} from 'react';
 import Header from '../../components/Header/Header';
 import NavBar from '../../components/NavBar/NavBar';
-import Projects from '../../components/Projects/Projects';
+import Recommendations from '../../components/Recommendations/Recommendations';
 import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import { Element } from 'react-scroll'
+import classes from './Home.module.css';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -19,11 +21,11 @@ const Home = () => {
     }
 
     return(
-        <div>
+        <div className={classes.Home}>
             <NavBar contactScroll = {scrollToContact}/>
             <Header clicked={executeScroll}/>
-            <Projects/>
-
+            <AboutMe/>
+            <Recommendations/>
             <Element id='contact' name="contact">
                 <div ref={contactRef}>
                     <Contact/>

@@ -5,6 +5,8 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
 import About from './containers/About/About';
 import ContactPage from './containers/ContactPage/ContactPage';
+import Projects from './components/Projects/Projects';
+
 class App extends Component {
   
   componentDidMount() {
@@ -16,6 +18,7 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route path="/about" component={About}/>
+        <Route path="/projects" component={Projects}/>
         <Route path="/courses" component={Courses}/>
         <Route path="/contact" exact component={ContactPage}/>
         <Route path="/" component={Home}/>

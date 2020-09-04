@@ -1,0 +1,106 @@
+.About{
+    padding-top: 50px;
+    background-color: #121211;
+}
+
+@media screen and (max-width: 500px){
+    .About{
+        padding-top: 50px;
+        background-color: #121211;
+        padding-bottom: 5%;
+        padding-left: 0;
+    }
+}
+
+.LeftPadding{
+    padding-left: 10%;
+}
+
+.Title{
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 500px){
+    .Title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+.Content{
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px){
+    .Content{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+.Text{
+    color: white;
+    width: 50%;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-right: 50px;
+}
+
+
+@media screen and (max-width: 500px){
+    .Text{
+        width: 90%;
+        text-align: center;
+        line-height: 1em;
+    }
+}
+
+.Picture{
+    width: 45%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@media screen and (max-width: 500px){
+    .Picture{
+        width: 80%;
+    }
+}
+
+.Picture img{
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: auto 0px;
+}
+
+@media screen and (max-width: 500px){
+    .Picture img{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+.Subtitle{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px){
+    .timeline{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

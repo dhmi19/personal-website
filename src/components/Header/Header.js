@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Typed from 'react-typed';
-import Particles from '../../components/UI/Particles/Particles';
 import classes from './Header.module.css';
 import Resume from '../../res/resume.pdf';
 
@@ -31,7 +30,6 @@ class Header extends Component {
         const typedFontPrefix = this.state.isMobile ? "I'm a " : "I'm a passionate "
         return(
             <div>
-                <Particles/>
                 <div className={classes.Header}>
                     <div className={classes.title}>
                         <p className={classes.greetings}>Hi! My name is</p>

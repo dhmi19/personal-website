@@ -1,0 +1,12 @@
+.Recommendations{
+    margin: 0% 10%;
+    color: white;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+}
+
+.Recommendations h1 {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+

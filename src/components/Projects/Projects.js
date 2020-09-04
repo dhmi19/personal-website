@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
         return (    
             <section className={classes.Projects}>
-                <h1 className={classes.title}>Past Projects</h1>
+                <h1 className={classes.title}>Things I've built</h1>
                 <MealOfTheDay/>
                 <ApartmentApp/>
                 <SurveyTree/>

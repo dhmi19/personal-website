@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './About.module.css';
 import Timeline from './Timeline/Timeline';
-import ProfilePicture from '../../images/ProfilePicture.png';
+import ProfilePicture from '../../images/ProfilePicture.jpg';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 
