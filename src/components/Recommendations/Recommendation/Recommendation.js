@@ -6,7 +6,7 @@ const Recommendation = (props) => {
     return (
         <div className={classes.Recommendation}>
             <div className={classes.Left}>
-                <img src={props.imageURL}/>
+                <img src={props.imageURL} alt={props.name}/>
                 <h1>{props.name}</h1>
                 <p>{props.position}</p>
             </div>
