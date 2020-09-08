@@ -3,7 +3,6 @@ import Typed from 'react-typed';
 import classes from './Header.module.css';
 import Resume from '../../res/resume.pdf';
 
-
 class Header extends Component {
 
     state={
@@ -32,21 +31,21 @@ class Header extends Component {
             <div>
                 <div className={classes.Header}>
                     <div className={classes.title}>
-                        <p className={classes.greetings}>Hi! My name is</p>
+                        <p className={classes.greetings}>Hi! I'm</p>
                         <p className={classes.name}>Dhruv Mittal<span style={{color:"#98ff98"}}>.</span></p>
                         <p style={{fontSize: typedFontSize}}>
                             {typedFontPrefix} <span><Typed 
-                                strings={["Android Developer", "Flutter Developer", "Web Developer"]} 
-                                typeSpeed={40}
+                                strings={["Flutter Developer", "Web Developer", "Home Cook", "Football Enthusiast", "Traveller"]} 
+                                typeSpeed={50}
                                 backSpeed={60}
                                 loop
                                 style={{color:"#98ff98"}}
                             /></span>
                         </p>
                         <div className={classes.bio}>
-                        <p>I am an international student studying computer science
-                                at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to see some of the 
-                                projects I have worked on or click to find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98"}}>resume</span></a> here.</p>  
+                        <p>I am an international student studying <span style={{color:"#98ff98"}}>computer science</span>
+                                at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to learn more 
+                                about me or click to find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98", textDecoration:"underline"}}>resume</span></a> here.</p>  
                         </div>
                         <button 
                             className={classes.contactMe}

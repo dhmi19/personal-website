@@ -40,8 +40,8 @@ const Contact = (props) => {
     
         <section className={classes.Contact}>
             <h1 className={classes.Title}>Say Hello!</h1>
-            <h3 className={classes.Subtitle}>I would love to talk to you about anything, from tech to football.
-            I am also available for internship and co-op opportunities.</h3>
+            <h3 className={classes.Subtitle}>I would love to talk to you about anything, from tech to living in 5 countries.
+            I am also actively seeking internship and co-op opportunities.</h3>
 
             <div className={classes.ContactMethods}>
                 <Grid container justify = "center">

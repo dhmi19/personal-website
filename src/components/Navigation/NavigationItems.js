@@ -11,7 +11,6 @@ const NavigationItems = () => {
                 <NavigationItem link='/projects' exact={true}>Projects</NavigationItem>
                 <NavigationItem link='/courses' exact={true}>Courses</NavigationItem>
                 <NavigationItem link='/contact' exact={true}>Contact</NavigationItem>
-                
             </ul>
         </div>
     );
