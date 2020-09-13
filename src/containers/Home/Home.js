@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import { Element } from 'react-scroll'
 import classes from './Home.module.css';
 import AboutMe from '../../components/AboutMe/AboutMe';
+import ECA from '../../components/ECA/ECA';
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -27,6 +28,7 @@ const Home = () => {
             <Header clicked={executeScroll}/>
             <AboutMe/>
             <WorkExperience/>
+            <ECA/>
             <Recommendations/>
             <Element id='contact' name="contact">
                 <div ref={contactRef}>

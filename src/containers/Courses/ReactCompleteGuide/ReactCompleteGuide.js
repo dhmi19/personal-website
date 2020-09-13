@@ -32,7 +32,7 @@ const ReactCompleteGuide = () => {
                     {technologies.map(technology => (
                         <div className={classes.Technology} key={technology}>{technology}</div>
                     ))}
-                </div>c
+                </div>
                 <br/>
                 <p>An extensive 40.5 hour Udemy course on React, Redux, and Hooks.</p>
                 <br/>

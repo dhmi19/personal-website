@@ -12,8 +12,8 @@ const WorkExperience = () => {
         <>
             <p>Year Zero Studios is a social impact lab, focused on investing in experiments that have the potential to shape our future.</p>
             <p><span style={{color:"#98ff98"}}>▶ </span>Designed and built the mindtech.news website, including research on 500 companies in the mental health and technology industry</p>
-            <p><span style={{color:"#98ff98"}}>▶ </span>Developed a meditation and wellness mobile application prototype using Flutter</p>
             <p><span style={{color:"#98ff98"}}>▶ </span>Engaged with a variety of industry mentors and participated in frequent skill development workshops led by business leaders</p>
+            <p><span style={{color:"#98ff98"}}>▶ </span>Achieved an "Outstanding" rating for the term, awarded only to a select few students in Waterloo</p>
         </>
     );
 

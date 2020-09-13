@@ -1,0 +1,39 @@
+.Activity{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 280px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(34, 34, 34, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Activity:hover{
+    transform: translateY(-2%);
+    transition: all 0.2s ease-out;
+}
+
+.Image{
+    width: 80%;
+    height: 100px;
+    text-align: center;
+}
+
+.Image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Activity h1{
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.Activity p{
+    color: #aaa;
+}

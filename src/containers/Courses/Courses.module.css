@@ -1,6 +1,10 @@
 .Courses{
     padding-top: 40px;
     background-color: #121211;
+    display: flex;
+    margin: 5px 10%; 
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .title{

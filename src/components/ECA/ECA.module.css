@@ -1,0 +1,16 @@
+.ECA{
+    margin-left: 10%;
+    padding-bottom: 50px;
+}
+
+.ECA h1{
+    font-size: 3em;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.Activities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+.Course{
+    width: 300px;
+    height: 375px;
+    background-color: rgba(34, 34, 34, 0.5);
+    padding: 20px 20px;
+    color: #aaa;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.Course:hover{
+    transform: translateY(-2%);
+    transition: all 0.2s ease-out;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Course img {
+    max-width: 50%;
+}
+
+.Course h1{
+    color: #98ff98;
+}
+
+.Topics{
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+    bottom: 0;
+}
+
+.Topic{
+    text-align: center;
+}
