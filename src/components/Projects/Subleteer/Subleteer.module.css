@@ -1,0 +1,146 @@
+.Subleteer{
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Content1{
+    background-color: transparent;
+    width: 45%;
+    height: 80%;
+}
+
+.Content1 img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10%;
+}
+
+
+.Content2{
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    color: white;
+    margin-left: 10%;
+}
+
+.Content2 h1{
+    text-align: left;
+    font-size: 2.5em;
+    color: white;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+}
+
+.Content2 p{
+    text-align: left;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: white;
+    position: relative;
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.Technologies{
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.Technology{
+    display: inline;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+    background-color: #2396F3;
+    border-radius: 10px;
+}
+
+.SourceCodeButton{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    height: 20%;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px){
+    .Subleteer{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .Content1{
+        margin-top: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    .Content1 img{
+        text-align: center;
+    }
+
+    .Content2{
+        margin-top: 0px;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Content2 h1{
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        position: relative;
+        margin-bottom: 0.5em;
+        margin-top: 10px;
+    }
+
+    .Content2 p{
+        text-align: left;
+        font-size: 1em;
+        color: white;
+        position: relative;
+        margin-bottom: 0.5em;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Technologies{
+        justify-content: center;
+    }
+
+    .Technology{
+        display: inline;
+        margin-left: 0;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 5px;
+        text-align: center;
+        color: white;
+        background-color: #2396F3;
+        border-radius: 10px;
+        font-size: 1em;
+    }
+}

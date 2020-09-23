@@ -45,7 +45,7 @@ class Header extends Component {
                         <div className={classes.bio}>
                         <p>I am an international student studying <span style={{color:"#98ff98"}}>computer science</span>
                                 at the <span style={{color:"#98ff98"}}>University of Waterloo.</span> You can scroll down to learn more 
-                                about me or click to find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98", textDecoration:"underline"}}>resume</span></a> here.</p>  
+                                about me or click to find my <a href = {Resume} target = "_blank" rel="noopener noreferrer"><span style={{color:"#98ff98", textDecoration:"underline"}}>resume</span></a> and <a href ="/projects"><span style={{color:"#98ff98", textDecoration:"underline"}}>projects</span></a> here.</p>  
                         </div>
                         <button 
                             className={classes.contactMe}

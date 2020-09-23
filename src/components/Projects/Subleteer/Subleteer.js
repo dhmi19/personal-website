@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './ApartmentApp.module.css';
+import classes from './Subleteer.module.css';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
-import Picture from '../../../images/ApartmentApp.png';
+import Picture from '../../../images/Subleteer.png';
 import LaunchIcon from '@material-ui/icons/Launch';
 
 //CSS Styles
@@ -22,16 +22,16 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const ApartmentApp = () => {
+const Subleteer = () => {
 
-    const technologies = ["Flutter", "Firestore", "Android Studio"];
+    const technologies = ["MongoDB", "ExpressJS", "NodeJS", "ReactJS"];
 
     const materialClasses = useStyles();
 
     return (
-        <section className={classes.ApartmentApp}>
+        <section className={classes.Subleteer}>
             <div className={classes.Content1}>
-                <img src={Picture} alt="ApartmentApp"/>
+                <img src={Picture} alt="Subleteer"/>
             </div>
             <div className={classes.Content2}>
                 <h1>Subleteer</h1>
@@ -41,15 +41,15 @@ const ApartmentApp = () => {
                     ))}
                 </div>
                 <br/>
-                <p>LiveTogether is a mobile application for iOS and Android. 
-                    The app makes living together easier by providing shared grocery lists, 
-                    notes, and expense management.</p>
+                <p>Subleteer is a platform for finding your ideal sublet quickly. 
+                    The web app connects students looking to sublet their apartment with buyers. 
+                    Users can sort listings by address and numerous other criteria.</p>
                 <br/>
                 <Button 
                     className={materialClasses.SourceCodeButton} 
                     variant="contained" color="#341234" 
                     endIcon={<GitHubIcon/>}
-                    target="_blank" href="https://github.com/dhmi19/lester_apartments"
+                    target="_blank" href="https://github.com/dotWaterlooProjects/subleteer"
                     >
                         Code
                 </Button>
@@ -58,7 +58,7 @@ const ApartmentApp = () => {
                     className={materialClasses.SourceCodeButton} 
                     variant="contained" color="#341234" 
                     endIcon={<LaunchIcon/>}
-                    target="_blank" href="https://devpost.com/software/livetogether-bqosm1"
+                    target="_blank" href="https://devpost.com/software/subleteer"
                     >
                         Case Study
                 </Button>
@@ -68,4 +68,4 @@ const ApartmentApp = () => {
     );
 };
 
-export default ApartmentApp;
+export default Subleteer;
