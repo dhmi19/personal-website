@@ -6,7 +6,6 @@ import Layout from './hoc/Layout/Layout';
 import About from './containers/About/About';
 import ContactPage from './containers/ContactPage/ContactPage';
 import Projects from './components/Projects/Projects';
-import ReactGa from 'react-ga';
 import GAListener from './util/GAListener';
 
 const App = () => {
