@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {useEffect} from 'react';
 import Courses from './containers/Courses/Courses';
 import Home from './containers/Home/Home';
 import {Route, Switch, Redirect} from 'react-router-dom';
@@ -7,20 +7,16 @@ import About from './containers/About/About';
 import ContactPage from './containers/ContactPage/ContactPage';
 import Projects from './components/Projects/Projects';
 import ReactGa from 'react-ga';
+import GAListener from './util/GAListener';
 
-
-class App extends Component {
+const App = () => {
   
-  componentDidMount() {
+  useEffect(() => {
     document.title = "Dhruv Mittal";
-    ReactGa.initialize('UA-179006078-1');
-    //Report page view 
-    ReactGa.pageview(window.location.pathname + window.location.search);
-  }
+  }, []);
 
-  render() {
-
-    let routes = (
+  let routes = (
+    <GAListener>
       <Switch>
         <Route path="/about" component={About}/>
         <Route path="/projects" component={Projects}/>
@@ -29,16 +25,18 @@ class App extends Component {
         <Route path="/" component={Home}/>
         <Redirect to='/'/>
       </Switch>
-    );
+    </GAListener>
+    
+  );
 
-    return (
-      <div>
-        <Layout>
-          {routes}
-        </Layout>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Layout>
+        {routes}
+      </Layout>
+    </div>
+  );
+
 }
 
 export default App;
