@@ -7,7 +7,7 @@ const Activity = (props) => {
             <div className={classes.Image}>
                 <img src={props.image} alt={props.title}/>
             </div>
-            <h1>{props.title}</h1>
+            <h1><span style={{color:"#98ff98"}}>{props.position}</span> | {props.title}</h1>
             <p>{props.description}</p>
         </div>
     );

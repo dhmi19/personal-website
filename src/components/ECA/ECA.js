@@ -23,8 +23,8 @@ const ECA = () => {
                     description="A service project which provides micro-finance loans to underpriviledged families in South East Asia."
                 />
                 <Activity
-                    position="Founder and Lead Organiser"
-                    title="Patana Development Bank: Techathon"
+                    position="Lead Organiser"
+                    title="Patana Development Bank Techathon"
                     image={PDB}
                     description="Organised the school's first inter-school charity hackathon which saw participants range from primary to high school. Raised over 50,000 Bhat for charity."
                 />
