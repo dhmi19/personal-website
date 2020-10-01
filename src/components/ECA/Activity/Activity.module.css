@@ -18,6 +18,13 @@
     transition: all 0.2s ease-out;
 }
 
+@media screen and (max-width: 450px){
+    .Activity{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
 .Image{
     width: 80%;
     height: 100px;

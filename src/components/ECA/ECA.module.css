@@ -9,8 +9,20 @@
     padding-bottom: 20px;
 }
 
+@media screen and (max-width: 450px){
+    .ECA{
+        margin-left: 0px;
+    }
+
+    .ECA h1{
+        text-align: center;
+    }
+}
+
 .Activities{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
+

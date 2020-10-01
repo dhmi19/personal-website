@@ -2,7 +2,6 @@
     margin: 0% 10%;
     color: white;
     padding-bottom: 50px;
-    box-sizing: border-box;
 }
 
 .Recommendations h1 {
@@ -11,11 +10,11 @@
 }
 
 @media screen and (max-width: 450px){
-
+    
     .Recommendations{
         text-align: center;
-        margin: 0;
-        padding-bottom: 0px
+        margin: 0px;
+        padding-bottom: 0px;
     }
 
     .Recommendations h1 {
