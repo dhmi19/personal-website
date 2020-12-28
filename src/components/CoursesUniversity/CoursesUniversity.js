@@ -25,7 +25,7 @@ const CoursesUniversity = (props) => {
             </div>
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <p>Grade: {props.grade}</p>
+            {/*<p>Grade: {props.grade}</p>*/}
         </div>
     );
 };

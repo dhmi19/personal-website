@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'; 
 import classes from './Recommendations.module.css';
 import Recommendation from './Recommendation/Recommendation';
+import KunalDP from '../../images/Kunal DP.jpeg';
 
 const Recommendations = () => {
 
@@ -11,7 +12,7 @@ const Recommendations = () => {
         {
             name: "Kunal Gupta",
             position: "CEO, Polar",
-            imageURL: "https://media-exp1.licdn.com/dms/image/C4E03AQEqMdYwewicFg/profile-displayphoto-shrink_800_800/0?e=1604534400&v=beta&t=r7ejs1ewiuQeWa23pVDvVDA0-LSeQ1UyacgkCmpv_YY",
+            imageURL: KunalDP,
             description: "Dhruv is a smart, resourceful and talented professional. He brings a curiosity to every project, willing to dive in and learn along the way. I counted on him for a variety of responsibilities and have high hopes for his future endeavours.",
         },
         // {

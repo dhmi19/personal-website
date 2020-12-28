@@ -4,6 +4,8 @@ import classes from './ECA.module.css';
 import Activity from './Activity/Activity';
 import STOP from '../../images/STOP.png';
 import PDB from '../../images/PDB.png';
+import TechPlus from '../../images/TechPlus.png';
+import Watlock from '../../images/Watlock.png';
 
 const ECA = () => {
     return (
@@ -11,16 +13,28 @@ const ECA = () => {
             <h1>Extra Curriculars</h1>
             <div className={classes.Activities}>
                 <Activity
+                    position="Logistics Organiser"
+                    title="Tech+ UW"
+                    image={TechPlus}
+                    description="As a logistics organiser, I was responsible for event planning, outreach, and marketing of the mentorship program, coffee chats, and community events"
+                />
+                <Activity
+                    position="Business Member"
+                    title="Watlock"
+                    image={Watlock}
+                    description="Watlock is determined to desing an airlock that works on Mars. I helped pitch funding proposals to numerous endowment funds to raise over $7000 for the club "
+                />
+                <Activity
                     position="Co-President"
                     title="STOP Trafficking Of People"
                     image={STOP}
-                    description="A service club that helps fight human trafficking in Thailand by raising funds for our partnered NGO- A21."
+                    description="I was responsible for running the whole club, which helps fight human trafficking in Thailand by raising funds for our partnered NGO- A21."
                 />
                 <Activity
                     position="Co-Founder"
                     title="Patana Development Bank"
                     image={PDB}
-                    description="A service project which provides micro-finance loans to underpriviledged families in South East Asia."
+                    description="I co-founded a service project which provides micro-finance loans to underpriviledged families in South East Asia."
                 />
                 <Activity
                     position="Lead Organiser"

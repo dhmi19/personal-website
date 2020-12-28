@@ -5,6 +5,7 @@ import SurveyTree from './SurveyTree/SurveyTree';
 import classes from './Projects.module.css';
 import UWScheduler from './UWScheduler/UWScheduler';
 import MealOfTheDay from './MealOfTheDay/MealOfTheDay';
+import Constructor from './Constructor/Constructor';
 import Footer from '../Footer/Footer';
 
 class Projects extends Component {
@@ -15,8 +16,9 @@ class Projects extends Component {
                 <Subleteer/>
                 <MealOfTheDay/>
                 <ApartmentApp/>
-                <SurveyTree/>
+                <Constructor/>
                 <UWScheduler/>
+                <SurveyTree/>
                 <Footer/>
             </section>
         );

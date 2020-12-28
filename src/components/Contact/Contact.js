@@ -80,7 +80,7 @@ const Contact = (props) => {
                         }}
                         target="_blank" 
                         href="https://www.linkedin.com/in/dhruv-mittal-1607a019b/"
-                        >Dhruv Mittal</Button>
+                        >in/d2mittal</Button>
                 </Grid>
                 <Grid container justify = "center">
                     <Button 

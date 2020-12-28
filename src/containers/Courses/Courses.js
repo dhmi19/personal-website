@@ -61,32 +61,40 @@ const Courses = () => {
                     image = {Waterloo}
                     title = "CS 135: Designing Functional Programs"
                     description = "An introduction to the fundamentals of computer science in the functional style of programming in Racket."
-                    grade = "91%"
+                    grade = ""
                     link = "https://uwflow.com/course/cs135"
                 />
-                <CoursesUniversity 
+                {/*<CoursesUniversity 
                     company = "Waterloo"
                     image = {Waterloo}
                     title = "MATH 136: Linear Algebra 1"
                     description = "Covers systems of linear equations, matrix algebra, elementary matrices, computational issues."
-                    grade = "87%"
+                    grade = ""
                     link = "https://uwflow.com/course/math136"
-                />
+                />*/}
                 <CoursesUniversity 
                     company = "Waterloo"
                     image = {Waterloo}
                     title = "CS 136: Algorithm Design and Data Abstraction"
                     description = "An introduction to the design and analysis of algorithms with imperitive programming using C."
-                    grade = "79%"
+                    grade = ""
                     link = "https://uwflow.com/course/cs136"
                 />
-                <CoursesUniversity 
+                {/*<CoursesUniversity 
                     company = "Waterloo"
                     image = {Waterloo}
                     title = "STAT 230: Probability"
                     description = "Covers conditional probability, named distributions, marginal probability functions, The Central Limit Theorem, and more."
-                    grade = "95%"
+                    grade = ""
                     link = "https://uwflow.com/course/stat230"
+                />*/}
+                <CoursesUniversity 
+                    company = "Waterloo"
+                    image = {Waterloo}
+                    title = "CS246: Object Oriented Programming"
+                    description = "Covers fundamental OOP principles, design patterns, RAII pattern, casting, and software engineering design. "
+                    grade = ""
+                    link = "https://uwflow.com/course/CS246"
                 />
             </section>
             <Footer/>
