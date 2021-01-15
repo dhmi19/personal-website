@@ -13,6 +13,7 @@ import NNAndDeepLearningCoursera from '../../res/Neural Networks and Deep Learni
 import MERNCertificate from '../../res/The MERN Fullstack Guide.pdf';
 import ReactCertificate from '../../res/React-The Complete Guide Certificate.pdf';
 import FlutterCertificate from '../../res/FlutterBootcamp.pdf';
+import GraphQlCertificate from '../../res/GraphQL Bootcamp.pdf';
 
 const Courses = () => {
 
@@ -20,6 +21,15 @@ const Courses = () => {
         <div style={{backgroundColor:"#121211"}}>
             <h1 className={classes.title}>Online Certifications</h1>
             <section className={classes.Courses}>
+
+                <CoursesOnline 
+                    company = "Udemy"
+                    image = {Udemy}
+                    title = "The MERN Fullstack Guide"
+                    description = "A wholistic 19 hour Udemy fullstack course covering React, Express, NodeJS, and MongoDB."
+                    topics = {["MongoDB", "Express", "React", "NodeJS"]}
+                    link = {MERNCertificate}
+                />
                 <CoursesOnline 
                     company = "Coursera"
                     image = {Coursera}
@@ -31,10 +41,10 @@ const Courses = () => {
                 <CoursesOnline 
                     company = "Udemy"
                     image = {Udemy}
-                    title = "The MERN Fullstack Guide"
-                    description = "A wholistic 19 hour Udemy fullstack course covering React, Express, NodeJS, and MongoDB."
-                    topics = {["MongoDB", "Express", "React", "NodeJS"]}
-                    link = {MERNCertificate}
+                    title = "The Modern GraphQL Bootcamp"
+                    description = "A comprehensive 23.5 hour course covering GraphQL and Prisma v1, rated 4.7 stars on Udemy by over 4000 users."
+                    topics = {["GraphQl", "Prisma v1", "Apollo Client"]}
+                    link = {GraphQlCertificate}
                 />
                 <CoursesOnline 
                     company = "Udemy"
