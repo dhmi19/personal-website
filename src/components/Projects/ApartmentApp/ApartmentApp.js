@@ -34,7 +34,7 @@ const ApartmentApp = () => {
                 <img src={Picture} alt="ApartmentApp"/>
             </div>
             <div className={classes.Content2}>
-                <h1>Subleteer</h1>
+                <h1>LiveTogether</h1>
                 <div className={classes.Technologies}>
                     {technologies.map(technology => (
                         <div className={classes.Technology} key={technology}>{technology}</div>
